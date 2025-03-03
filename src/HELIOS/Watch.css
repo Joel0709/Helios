@@ -1,0 +1,556 @@
+body {
+  margin: 0;
+
+}
+
+
+.helios-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0px 20px;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0px 4px 10px rgba(0, 166, 166, 0.2);
+}
+
+.logo-img {
+  height: 1.1rem !important;
+  margin: 1.75rem 0;
+  max-height: inherit;
+  width: auto;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size:medium;
+  margin: 0 10px;
+}
+
+.nav-link:hover{
+  color: rgb(43, 160, 228);
+}
+
+
+.icon-link {
+  color: black;
+  font-size: 25px;
+  margin: 0 10px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+
+.nav-icons .search {
+  border-radius: 11px;
+  margin-bottom: 10px;
+  height: 1rem !important;
+  border-color: #000;
+  font-family: Jost;
+  font-size: 0.7rem !important;
+  font-weight: 300;
+  line-height: normal;
+  color: #000 !important;
+}
+
+
+.frontimage{
+  width: 100%;
+height: auto;
+}
+
+
+.trust-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0px 4px 10px rgba(0, 166, 166, 0.2); 
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+
+.icon {
+  font-size: 22px;
+  color: #00bbd492;
+}
+
+.carousel-container {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  padding: 20px;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0px 4px 10px rgba(0, 166, 166, 0.2); 
+}
+
+.carousel-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.carousel-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.carousel-image {
+  width: 50%;
+  height: auto;
+}
+
+.text-content {
+  width: 40%;
+  padding: 20px;
+}
+
+.carousel-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.carousel-description {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.carousel-button {
+  background-color: #00a99d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.slick-prev, .slick-next {
+  color: black !important;
+  z-index: 1000;
+}
+
+
+.most-loved-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0px 4px 10px rgba(0, 166, 166, 0.2); 
+}
+
+.section-title {
+  font-size: 24px;
+  color: #00a99d;
+  font-weight: 400;
+}
+
+.category-toggle {
+  margin-bottom: 15px;
+}
+
+.category-toggle span {
+  font-size: 16px;
+  color: #999;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.category-toggle .active {
+  font-weight: bold;
+  color: #00a99d;
+  border-bottom: 2px solid #00a99d;
+  padding-bottom: 5px;
+}
+
+.watch-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+.watch-card:hover {
+  transform: scale(1.05);
+}
+
+.watch-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.watch-brand {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.watch-model {
+  font-size: 14px;
+  color: #666;
+}
+
+.watch-price {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.slick-prev,
+.slick-next {
+  color: #000000 !important;
+  z-index: 1000;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 24px;
+  color: #000000;
+}
+
+.brands-container {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0px 4px 10px rgba(0, 166, 166, 0.2); 
+}
+
+h2 {
+  color: teal;
+  font-size: 24px;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  padding: 5px;
+}
+
+.brand-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(50, 172, 229, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.brand-card:hover {
+  transform: scale(1.05);
+}
+
+.brand-logo {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.police{
+  width: 100%;
+  height: auto;
+}
+
+.celebrity-section {
+  text-align: left;
+  padding: 20px;
+  max-width: 90%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: teal;
+}
+
+.swiper {
+  padding: 20px 0;
+}
+
+.celebrity-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.celebrity-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black;
+  margin: 5px;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.footer-section ul li:hover {
+  color: white;
+}
+
+.social-icons span {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.store-locations {
+  background-color: #1a1a1a;
+  color: #636060;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.store-locations p {
+  margin: 5px 0;
+}
+
+.store-locations strong {
+  color: #fff;
+}
+
+
+.footer-bottom {
+  border-top: 1px solid #444444cc;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  text-overflow: initial;
+}
+
+.Mens{
+  width: 100%;
+  height: auto;
+}
+
+.watch-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.watch-card {
+  text-align: center;
+  width: 220px;
+  padding: 20px;
+}
+
+.watch-card img {
+  width: 100%;
+  height: auto;
+}
+
+.watch-card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.watch-card p {
+  color: gray;
+  font-size: 14px;
+}
+
+.watch-card h4 {
+  font-size: 18px;
+  color: black;
+  margin-top: 5px;
+}
+
+.description-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.highlight {
+  color: teal;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropdown-container {
+  max-width: 300px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.logincard {
+  width: 350px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 50px auto;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 400;
+  color: #009688 ;
+  text-decoration: none;
+}
+
+
+
+.input-box {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-box input {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #00796b;
+}
+
+.terms {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.terms a {
+  color: #009688;
+  text-decoration: none;
+  font-weight: 400;
+
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
